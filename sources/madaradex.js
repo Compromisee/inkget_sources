@@ -1,0 +1,14 @@
+'use strict';
+const cheerio=require('cheerio');
+const {fetchText}=require('../http');
+const {createMadara}=require('./madara');
+const base='https://madaradex.org';
+const site=createMadara({id:'madaradex',label:'MadaraDex',short:'MADX',homepage:base,hosts:['madaradex.org'],seriesPath:'/title/',genrePath:'/genre/',genreIndexUrl:base});
+const get=site.getSeries;
+site.getSeries=async(ref)=>{const item=await get(ref);const $=cheerio.load(await fetchText(item.url));const extra=$('.tags-content a').map((_,a)=>$(a).text().trim()).get().filter(Boolean);return {...item,tags:[...new Set([...item.tags,...extra])]};};
+let vocab=null,vocabAt=0;
+site.tags=async()=>{if(vocab&&Date.now()-vocabAt<3600000)return vocab;const $=cheerio.load(await fetchText(base)),map=new Map();$('a[href*="/genre/"],a[href*="/tag/"]').each((_,a)=>{const name=$(a).text().trim(),slug=$(a).attr('href')?.match(/\/(?:genre|tag)\/([^/?#]+)/)?.[1];if(name&&slug&&!map.has(name.toLowerCase()))map.set(name.toLowerCase(),{name,slug});});vocab=[...map.values()].sort((a,b)=>a.name.localeCompare(b.name));vocabAt=Date.now();return vocab;};
+const rawSearch=site.searchPage,cache=new Map();
+site.searchPage=async(query='',{limit=24,tags:wanted=[],page=1,language='english'}={})=>{const vocab=await site.tags(),terms=wanted.map(x=>vocab.find(t=>[t.name,t.slug].some(v=>v.toLowerCase()===String(x).toLowerCase())));if(terms.some(t=>!t))return {items:[],hasMore:false};const text=String(query||'').trim(),size=Math.max(1,Math.min(24,Number(limit)||24)),p=Math.max(1,Number(page)||1),target=p*size,key=JSON.stringify([text,terms.map(x=>x.slug).sort(),language]);let state=cache.get(key);if(!state||Date.now()-state.at>600000){state={at:Date.now(),items:[],next:1,done:false,lock:Promise.resolve()};cache.set(key,state);if(cache.size>30)cache.delete(cache.keys().next().value);}const run=async()=>{let scanned=0;while(state.items.length<target+1&&!state.done&&scanned++<8){let raw=await rawSearch(text,{page:state.next,limit:24,tags:[]});const lastPage=!raw.hasMore||!raw.items.length;let list=raw.items;if(terms.length){list=[];for(let i=0;i<raw.items.length;i+=6){let details=await Promise.all(raw.items.slice(i,i+6).map(item=>site.getSeries(item).then(detail=>({item,detail}))));for(const {item,detail} of details){const names=new Set(detail.tags.map(x=>x.toLowerCase()));if(terms.every(t=>names.has(t.name.toLowerCase())))list.push(item);}}}if(language==='english')list=list.filter(x=>!/\braw\b/i.test(x.title));state.items.push(...list);state.next++;if(lastPage)state.done=true;}};state.lock=state.lock.catch(()=>{}).then(run);await state.lock;if(state.items.length<target&&!state.done)throw Error('MadaraDex needs a narrower search to finish this tag filter.');return {items:state.items.slice((p-1)*size,target),hasMore:state.items.length>target||!state.done};};
+site.search=(q,o)=>site.searchPage(q,o).then(r=>r.items);
+module.exports=site;

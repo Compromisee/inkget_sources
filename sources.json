@@ -1,0 +1,60 @@
+{
+  "format": "inkget-source-repository-v1",
+  "version": 1,
+  "sources": [
+    {
+      "id": "chikari",
+      "name": "Chikari",
+      "homepage": "https://chikari.moe",
+      "module": "sources/chikari.js",
+      "hidden": false
+    },
+    {
+      "id": "mangadex",
+      "name": "MangaDex",
+      "homepage": "https://mangadex.org",
+      "module": "sources/mangadex.js",
+      "hidden": false
+    },
+    {
+      "id": "mangakatana",
+      "name": "MangaKatana",
+      "homepage": "https://mangakatana.com",
+      "module": "sources/mangakatana.js",
+      "hidden": false
+    },
+    {
+      "id": "webtoons",
+      "name": "WEBTOON",
+      "homepage": "https://www.webtoons.com",
+      "module": "sources/webtoons.js",
+      "hidden": false
+    },
+    {
+      "id": "weebcentral",
+      "name": "Weeb Central",
+      "homepage": "https://weebcentral.com",
+      "module": "sources/weebcentral.js",
+      "hidden": false
+    }
+  ],
+  "files": {
+    "sources/chikari.js": "7fe6a10728bb7fd740a4be65e9b49518110290d3de8fd1b76fe0a7a41720b170",
+    "sources/flight.js": "1a98a77badaead00b66eb7875ce316ab6e6a79840ce9d29d7847b13b40651dfb",
+    "sources/madara.js": "8b4e65adf925a8581d11139721c24716bb72994b525b22327d4b38f3668460f7",
+    "sources/mangadex.js": "bb8c455f6f41c20e5794b49d22c85d8ea35131ab152a1f352e36bb59b25c7488",
+    "sources/mangakatana.js": "fbbc001effd3a793aa39076b6ec7514b0d984e1099493db677bbd0a272a6ac87",
+    "sources/mangastream.js": "81a8086068300336f53808b0ffdd90d9b2db23a7b863f3529d748eab5eadfce1",
+    "sources/scanportal.js": "1062b9ff7de944beaec117c51b404ca7faf4f82e7224a5bdc552e8ec2fd5453b",
+    "sources/tag-utils.js": "a7a1d901ae6233e3fad2ea439d3bd13fb7f3e2e6957d31efcbe9ebcf494279f2",
+    "sources/webtoons.js": "74f6add32333952114888c604b40bdf7b9a61e88469203ce2fd6e22144bca593",
+    "sources/weebcentral.js": "e3a38a7c82965725fcbaef93df1a2a504020e7b88945db329a053187238df7f7",
+    "sources/aidoku-aqua-fallback.js": "d909fd2cd7323c2c108eb9810565fe3bb95165590d5418c5b2da361d5c2851bc"
+  },
+  "extensions": [
+    {
+      "key": "en.aquamanga",
+      "module": "sources/aidoku-aqua-fallback.js"
+    }
+  ]
+}

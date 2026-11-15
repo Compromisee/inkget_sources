@@ -1,0 +1,246 @@
+{
+  "format": "inkget-source-repository-v1",
+  "version": 1,
+  "sources": [
+    {
+      "id": "asurascans",
+      "name": "Asura Scans",
+      "homepage": "https://asuracomic.net",
+      "module": "sources/asurascans.js",
+      "hidden": true
+    },
+    {
+      "id": "baetoon",
+      "name": "BaeToon",
+      "homepage": "https://baetoon.com",
+      "module": "sources/baetoon.js",
+      "hidden": true
+    },
+    {
+      "id": "drakecomic",
+      "name": "DrakeComic",
+      "homepage": "https://drakecomic.net",
+      "module": "sources/drakecomic.js",
+      "hidden": true
+    },
+    {
+      "id": "ehentai",
+      "name": "E-Hentai",
+      "homepage": "https://e-hentai.org",
+      "module": "sources/ehentai.js",
+      "hidden": true
+    },
+    {
+      "id": "elftoon",
+      "name": "ElfToon",
+      "homepage": "https://elftoon.net",
+      "module": "sources/elftoon.js",
+      "hidden": true
+    },
+    {
+      "id": "flamecomics",
+      "name": "Flame Comics",
+      "homepage": "https://flamecomics.xyz",
+      "module": "sources/flamecomics.js",
+      "hidden": true
+    },
+    {
+      "id": "kurahentai",
+      "name": "KuraHentai",
+      "homepage": "https://kurahentai.com",
+      "module": "sources/kurahentai.js",
+      "hidden": true
+    },
+    {
+      "id": "kuramanga",
+      "name": "KuraManga",
+      "homepage": "https://kuramanga.com",
+      "module": "sources/kuramanga.js",
+      "hidden": true
+    },
+    {
+      "id": "madaradex",
+      "name": "MadaraDex",
+      "homepage": "https://madaradex.org",
+      "module": "sources/madaradex.js",
+      "hidden": true
+    },
+    {
+      "id": "madarascans",
+      "name": "Madara Scans",
+      "homepage": "https://madarascans.org",
+      "module": "sources/madarascans.js",
+      "hidden": true
+    },
+    {
+      "id": "manga18",
+      "name": "Manga18",
+      "homepage": "https://manga18.club",
+      "module": "sources/manga18.js",
+      "hidden": true
+    },
+    {
+      "id": "mangabaka",
+      "name": "MangaBaka",
+      "homepage": "https://mangabaka.org",
+      "module": "sources/mangabaka.js",
+      "hidden": true
+    },
+    {
+      "id": "mangadass",
+      "name": "MangaDass",
+      "homepage": "https://mangadass.com",
+      "module": "sources/mangadass.js",
+      "hidden": true
+    },
+    {
+      "id": "mangadistrict",
+      "name": "Manga District",
+      "homepage": "https://mangadistrict.com",
+      "module": "sources/mangadistrict.js",
+      "hidden": true
+    },
+    {
+      "id": "mangaread",
+      "name": "Manga Read",
+      "homepage": "https://www.mangaread.org",
+      "module": "sources/mangaread.js",
+      "hidden": true
+    },
+    {
+      "id": "mangareadz",
+      "name": "Manga Read Z",
+      "homepage": "https://www.mangareadz.com",
+      "module": "sources/mangareadz.js",
+      "hidden": true
+    },
+    {
+      "id": "mangataro",
+      "name": "MangaTaro",
+      "homepage": "https://mangataro.org",
+      "module": "sources/mangataro.js",
+      "hidden": true
+    },
+    {
+      "id": "manhwa18",
+      "name": "Manhwa18",
+      "homepage": "https://manhwa18.cc",
+      "module": "sources/manhwa18.js",
+      "hidden": true
+    },
+    {
+      "id": "manhwabuddy",
+      "name": "ManhwaBuddy",
+      "homepage": "https://manhwabuddy.com",
+      "module": "sources/manhwabuddy.js",
+      "hidden": true
+    },
+    {
+      "id": "manhwatop",
+      "name": "ManhwaTop",
+      "homepage": "https://manhwatop.com",
+      "module": "sources/manhwatop.js",
+      "hidden": true
+    },
+    {
+      "id": "natomanga",
+      "name": "Natomanga",
+      "homepage": "https://www.natomanga.com",
+      "module": "sources/natomanga.js",
+      "hidden": true
+    },
+    {
+      "id": "nhentai",
+      "name": "nhentai",
+      "homepage": "https://nhentai.to",
+      "module": "sources/nhentai.js",
+      "hidden": true
+    },
+    {
+      "id": "omegascans",
+      "name": "Omega Scans",
+      "homepage": "https://omegascans.org",
+      "module": "sources/omegascans.js",
+      "hidden": true
+    },
+    {
+      "id": "pornhwaz",
+      "name": "Pornhwaz",
+      "homepage": "https://www.pornhwaz.com",
+      "module": "sources/pornhwaz.js",
+      "hidden": true
+    },
+    {
+      "id": "toonkotsu",
+      "name": "Toonkotsu",
+      "homepage": "https://toonkotsu.com",
+      "module": "sources/toonkotsu.js",
+      "hidden": true
+    },
+    {
+      "id": "toonx",
+      "name": "ToonX",
+      "homepage": "https://toonx.to",
+      "module": "sources/toonx.js",
+      "hidden": true
+    },
+    {
+      "id": "webtoonclub",
+      "name": "WebtoonClub",
+      "homepage": "https://webtoonclub.com",
+      "module": "sources/webtoonclub.js",
+      "hidden": true
+    },
+    {
+      "id": "witchscans",
+      "name": "Witchtoons",
+      "homepage": "https://witchtoons.net",
+      "module": "sources/witchscans.js",
+      "hidden": true
+    },
+    {
+      "id": "writerscans",
+      "name": "Writers’ Scans",
+      "homepage": "https://writerscans.com",
+      "module": "sources/writerscans.js",
+      "hidden": true
+    }
+  ],
+  "files": {
+    "sources/asurascans.js": "d592ea105d1496d5685e224583fcc2b36d10bd1ca266095068cdde5931190a7f",
+    "sources/baetoon.js": "901e8a45c127d970a95c35d5202c543971c74c18614775d3521f1bbce88bbbb4",
+    "sources/drakecomic.js": "5212dd83dfa6580d5766c8c293df40b0afdd099f1849a0e865402ac9b6bfc256",
+    "sources/ehentai.js": "0ccebc998a6b3fc6467abf50f3402f0cdb198fc59163d026716ba378de7f7bca",
+    "sources/elftoon.js": "3a7093b25c48406eeba57c193a872c326166cd5b0b397ac0e60234a5bd27a91d",
+    "sources/flamecomics.js": "9057a0035476d62625927d38708081663b2941fee778003da7578038012800b5",
+    "sources/flight.js": "1a98a77badaead00b66eb7875ce316ab6e6a79840ce9d29d7847b13b40651dfb",
+    "sources/kurahentai.js": "b3cb8d4b808f34fb819e123dee0dc3e8a94013ca39d168fda4f80dbed9f7faa3",
+    "sources/kuramanga.js": "19e8b3f0ce6c7660499f0136d056be51955461f6992d00cfd9c072bc7d0e1669",
+    "sources/madara.js": "8b4e65adf925a8581d11139721c24716bb72994b525b22327d4b38f3668460f7",
+    "sources/madaradex.js": "5fbecd887ee20ca5f54a19455f64aef0647abb2e190a01c4089abbefc6935be9",
+    "sources/madarascans.js": "f00e7850993abaee07b5e8c2fe63b148e855b8d0c61e63d13a3033dc5a6b577f",
+    "sources/manga18.js": "b20e42f04c9799469641c9118c787e90902d217e6f1b5dd94a326217a4e3f273",
+    "sources/mangabaka.js": "199540ba7c95cb5c4ae02b22de7a313ffd86fa6c547300ee8a301cb09f2400c3",
+    "sources/mangadass.js": "833e2dd551fb21ab6013ad230e5682833249e34377fe7e42e4737fdb4fd7e73b",
+    "sources/mangadistrict.js": "4e0c0702cb2a26a12d090dfae3a6cb1dac2b2c43189e540ad59166be86567f9e",
+    "sources/mangaread.js": "87844718881eefd18d7548bbeebfe6782a614745f97fa816b0abfa5cbc015c51",
+    "sources/mangareadz.js": "0bfc4bb402e57a22078ba4ff466dc3aaa02829101636678f27ec3f2729f52b25",
+    "sources/mangastream.js": "81a8086068300336f53808b0ffdd90d9b2db23a7b863f3529d748eab5eadfce1",
+    "sources/mangataro.js": "becbcd48b686826a0bbe3329ccb50e7509e713a18b5231612cb86da7a4f302d0",
+    "sources/manhwa18.js": "a5838564d8973a8a61a81f71554edeb185acb8562c6f73d34738989b0396d5ca",
+    "sources/manhwabuddy.js": "60023f3fbcf824c321e090494dab133b84b6099857c630202070f3dee49a1c64",
+    "sources/manhwatop.js": "ed917e789882a1e0429eb301dcaaa7b5834cfc9699b1cbba60f6f4774c17b830",
+    "sources/natomanga.js": "008f5f353b9d254be323d0e55607406e16f3fbf62fffcc5a12202379b9007519",
+    "sources/nhentai.js": "1b18ab31f51c621edeff767643651d35eeecde95131b80114ed01e4d3c23a012",
+    "sources/omegascans.js": "289cb9516a7559c28569a9eac254619a695c0bd77fe01efe6024989a12153941",
+    "sources/pornhwaz.js": "89f120ad419d895c27063684b84c4f1b11c1b30a1df70d8eb0419681d6ace062",
+    "sources/scanportal.js": "1062b9ff7de944beaec117c51b404ca7faf4f82e7224a5bdc552e8ec2fd5453b",
+    "sources/tag-utils.js": "a7a1d901ae6233e3fad2ea439d3bd13fb7f3e2e6957d31efcbe9ebcf494279f2",
+    "sources/toonkotsu.js": "c6b0bab1f15c9bc6bd2dd3a8a49f0d152b695c2242767aaaaaa2d54dd9478ae5",
+    "sources/toonx.js": "8ec5ccb4cb0fe5b58c501d98a0e2942e14e569d8d76a969c213878d322fc7dd4",
+    "sources/webtoonclub.js": "91e948713c8e84b3d3aeef21adfb2a329c4c83f4f256e7a931ddd018c7a87da8",
+    "sources/witchscans.js": "454b219828281e5d33e0c50e93e1db830ba110374208b2f01a0316fc85dd9d39",
+    "sources/writerscans.js": "70dac5df6c224c7662a0c1dabe843540fd8990cf73b058247cf6a197919e1a67"
+  },
+  "extensions": []
+}
