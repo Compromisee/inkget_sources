@@ -67,7 +67,7 @@
     },
     {
       "id": "madarascans",
-      "name": "Madara Scans",
+      "name": "Madara Scan",
       "homepage": "https://madarascans.org",
       "module": "sources/madarascans.js",
       "hidden": true
