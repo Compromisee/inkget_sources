@@ -36,6 +36,34 @@
       "homepage": "https://weebcentral.com",
       "module": "sources/weebcentral.js",
       "hidden": false
+    },
+    {
+      "id": "mangadot",
+      "name": "MangaDot",
+      "homepage": "https://mangadot.net/",
+      "module": "sources/mangadot.js",
+      "hidden": false
+    },
+    {
+      "id": "dynasty",
+      "name": "Dynasty Reader",
+      "homepage": "https://dynasty-scans.com",
+      "module": "sources/dynasty.js",
+      "hidden": false
+    },
+    {
+      "id": "xcomic",
+      "name": "XComic",
+      "homepage": "https://xcomic.me",
+      "module": "sources/xcomic.js",
+      "hidden": false
+    },
+    {
+      "id": "mangak",
+      "name": "MangaK",
+      "homepage": "https://mangak.io",
+      "module": "sources/mangak.js",
+      "hidden": false
     }
   ],
   "files": {
@@ -49,7 +77,13 @@
     "sources/tag-utils.js": "a7a1d901ae6233e3fad2ea439d3bd13fb7f3e2e6957d31efcbe9ebcf494279f2",
     "sources/webtoons.js": "74f6add32333952114888c604b40bdf7b9a61e88469203ce2fd6e22144bca593",
     "sources/weebcentral.js": "e3a38a7c82965725fcbaef93df1a2a504020e7b88945db329a053187238df7f7",
-    "sources/aidoku-aqua-fallback.js": "d909fd2cd7323c2c108eb9810565fe3bb95165590d5418c5b2da361d5c2851bc"
+    "sources/aidoku-aqua-fallback.js": "d909fd2cd7323c2c108eb9810565fe3bb95165590d5418c5b2da361d5c2851bc",
+    "sources/mangadot.js": "ed85502528a0b801eb77ae370e7f717b00be4818c4beb471da01e710c29ec4c6",
+    "sources/mangadot-common.js": "3c96fcea78d28acdcbfdbb745d8f4d154656d46cf1b090f7ad267a317ae26e7a",
+    "sources/dynasty.js": "19fe1daed738a5819c900d3791b2b51429e7d8e30649dda8827c2afb342d446e",
+    "sources/source-pages.js": "d2bfedc65694d385585df4132f6baa5aefeeda1455421ceee5b360b91662f798",
+    "sources/xcomic.js": "beeb8fd3d8c19bfffae2d96a0544de6de0db1c3c75202b42fb3ed8911cac65fc",
+    "sources/mangak.js": "04857332b7c5ec82c1959460d621311b7dc25886295b5127b1d8aa3bf8692494"
   },
   "extensions": [
     {
