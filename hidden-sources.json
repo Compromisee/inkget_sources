@@ -204,6 +204,34 @@
       "homepage": "https://writerscans.com",
       "module": "sources/writerscans.js",
       "hidden": true
+    },
+    {
+      "id": "mangadot-adult",
+      "name": "MangaDot Adult",
+      "homepage": "https://mangadot.net/?adult=1",
+      "module": "sources/mangadot-adult.js",
+      "hidden": true
+    },
+    {
+      "id": "hentaifox",
+      "name": "HentaiFox",
+      "homepage": "https://hentaifox.com",
+      "module": "sources/hentaifox.js",
+      "hidden": true
+    },
+    {
+      "id": "hentaienvy",
+      "name": "HentaiEnvy",
+      "homepage": "https://hentaienvy.com",
+      "module": "sources/hentaienvy.js",
+      "hidden": true
+    },
+    {
+      "id": "hentainexus",
+      "name": "HentaiNexus",
+      "homepage": "https://hentainexus.com",
+      "module": "sources/hentainexus.js",
+      "hidden": true
     }
   ],
   "files": {
@@ -240,7 +268,13 @@
     "sources/toonx.js": "8ec5ccb4cb0fe5b58c501d98a0e2942e14e569d8d76a969c213878d322fc7dd4",
     "sources/webtoonclub.js": "91e948713c8e84b3d3aeef21adfb2a329c4c83f4f256e7a931ddd018c7a87da8",
     "sources/witchscans.js": "454b219828281e5d33e0c50e93e1db830ba110374208b2f01a0316fc85dd9d39",
-    "sources/writerscans.js": "70dac5df6c224c7662a0c1dabe843540fd8990cf73b058247cf6a197919e1a67"
+    "sources/writerscans.js": "70dac5df6c224c7662a0c1dabe843540fd8990cf73b058247cf6a197919e1a67",
+    "sources/mangadot-adult.js": "31dd8873b8175597a93624ee42d576d29f608fd09bfb691b41bbf033e32fbe15",
+    "sources/mangadot-common.js": "3c96fcea78d28acdcbfdbb745d8f4d154656d46cf1b090f7ad267a317ae26e7a",
+    "sources/hentaifox.js": "2c664b6483ee7edfd36094180be81bbb323b3ba2b99b1bcede2998ddb80f60af",
+    "sources/source-pages.js": "d2bfedc65694d385585df4132f6baa5aefeeda1455421ceee5b360b91662f798",
+    "sources/hentaienvy.js": "227f315ff59d96997da13d34985c2c42fff82e47e4d23c52e6c762339063e76f",
+    "sources/hentainexus.js": "b0f0bf0c01b33c1cfca3f34ea7949db1df3e6491ce4a82f5df6a0cd755fdc925"
   },
   "extensions": []
 }
